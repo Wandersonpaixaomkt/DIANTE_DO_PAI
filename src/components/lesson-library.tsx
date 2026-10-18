@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { ArrowLeft, ArrowRight, BookOpen, ExternalLink, FileText, X } from "lucide-react";
 import { LessonReader } from "@/components/lesson-reader";
+import { LessonCover } from "@/components/lesson-cover";
 import { SuppliedLessonReader } from "@/components/supplied-lesson-reader";
 import { Button } from "@/components/ui/button";
 import { lessonCatalog, type CatalogLesson } from "@/data/lesson-catalog";
@@ -53,7 +54,7 @@ export function LessonLibrary() {
     <>
       {number === 2 ? (
         <LessonReader onOpenLessons={() => setMenuOpen(true)} onSelectLesson={selectLesson} />
-      ) : number >= 3 && number <= 6 ? (
+      ) : (number === 1 || (number >= 3 && number <= 6)) ? (
         <SuppliedLessonReader key={number} lesson={lesson} onOpenLessons={() => setMenuOpen(true)} onSelectLesson={selectLesson} />
       ) : (
         <LessonOverview lesson={lesson} onOpenLessons={() => setMenuOpen(true)} onSelectLesson={selectLesson} />
@@ -97,6 +98,7 @@ function LessonOverview({ lesson, onOpenLessons, onSelectLesson }: { lesson: Cat
         </div>
       </header>
       <main className="mx-auto max-w-3xl px-5 pt-10 pb-24 sm:px-8 sm:pt-16">
+        <div className="mb-9"><LessonCover number={lesson.number} /></div>
         <p className="text-muted text-center text-xs tracking-caps uppercase">4º trimestre de 2026 · Adultos</p>
         <p className="font-display text-primary mt-5 text-center text-5xl font-semibold">{String(lesson.number).padStart(2, "0")}</p>
         <h1 className="font-display mt-4 text-center text-3xl leading-tight font-semibold sm:text-5xl">{lesson.title}</h1>

@@ -89,7 +89,7 @@ const ALIASES = BOOKS.flatMap((book) =>
 ).sort((a, b) => b.alias.length - a.alias.length);
 
 const SPEC =
-  /^(\d+)(?:\.(\d+)((?:\s*,\s*\d+)+|\s*[-–—]\s*\d+(?![.\d]))?|\s*[-–—]\s*(\d+)(?![.\d]))?/;
+  /^(\d+)(?:\.(\d+)((?:\s*,\s*\d+(?:\s*[-–—]\s*\d+(?!\d|\.\d))?)+|\s*[-–—]\s*\d+(?!\d|\.\d))?|\s*[-–—]\s*(\d+)(?!\d|\.\d))?/;
 
 function isLetterOrNumber(ch: string | undefined) {
   return !!ch && /[\p{L}\p{N}]/u.test(ch);

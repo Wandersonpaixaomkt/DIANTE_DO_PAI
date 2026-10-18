@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { ArrowLeft, ArrowRight, BookOpen, List, Minus, Plus, X } from "lucide-react";
 import { ScriptureProvider, ScriptureText } from "@/components/scripture-text";
 import { Button } from "@/components/ui/button";
+import { LessonCover } from "@/components/lesson-cover";
 import suppliedLessons from "@/data/supplied-lessons.json";
 import type { CatalogLesson } from "@/data/lesson-catalog";
 
@@ -52,7 +53,7 @@ export function SuppliedLessonReader({ lesson, onOpenLessons, onSelectLesson }: 
       <div className="mx-auto flex max-w-6xl">
         <aside className="no-print hidden w-64 shrink-0 lg:block"><div className="sticky top-20 max-h-[calc(100dvh-6rem)] overflow-y-auto px-6 py-10"><Index sections={sections} /></div></aside>
         <main className="reader-body min-w-0 flex-1 px-4 pt-6 pb-24 sm:px-8 sm:pt-10">
-          <header className="mb-4"><figure className="overflow-hidden rounded-xl shadow-card"><img src="/hero.jpg" alt="Multidão caminhando pelo deserto rumo à luz" className="aspect-video w-full object-cover" /></figure>
+          <header className="mb-4"><LessonCover number={lesson.number} />
             <div className="mt-8 text-center"><p className="text-muted text-xs tracking-caps uppercase">4º trimestre de 2026 · Adultos</p><p className="font-display text-primary mt-4 text-5xl font-semibold sm:text-6xl">{String(lesson.number).padStart(2, "0")}</p><h1 className="font-display mt-3 text-3xl leading-tight font-semibold sm:text-4xl">{lesson.title}</h1><p className="text-muted mx-auto mt-4 max-w-xl text-base leading-relaxed">O Deus da Aliança — Advertências, promessas e bênçãos no livro de Deuteronômio</p><p className="text-subtle mt-3 text-sm">Lições Bíblicas CPAD Adultos · Comentarista Osiel Gomes</p></div>
           </header>
           {sections.map((section) => <section key={section.id} id={section.id} className="scroll-mt-20">
@@ -62,7 +63,7 @@ export function SuppliedLessonReader({ lesson, onOpenLessons, onSelectLesson }: 
               {section.blocks.map((block, index) => block.type === "heading" ? <h3 key={index} className="font-display text-ink pt-2 text-lg font-semibold">{block.text}</h3> : <p key={index} className={section.title === "Texto áureo" ? "font-display text-xl leading-relaxed italic sm:text-2xl" : section.title === "Revisando o conteúdo" && index % 2 === 0 ? "font-semibold leading-relaxed" : "leading-relaxed"}><ScriptureText text={block.text} /></p>)}
             </div>
           </section>)}
-          <nav aria-label="Navegar entre lições" className="no-print mt-12 flex flex-wrap justify-between gap-3 border-t border-border pt-6"><Button variant="outline" size="sm" onClick={() => onSelectLesson(lesson.number - 1)}><ArrowLeft className="size-4" /> Lição {String(lesson.number - 1).padStart(2, "0")}</Button><Button variant="outline" size="sm" onClick={() => onSelectLesson(lesson.number + 1)}>Lição {String(lesson.number + 1).padStart(2, "0")} <ArrowRight className="size-4" /></Button></nav>
+          <nav aria-label="Navegar entre lições" className="no-print mt-12 flex flex-wrap justify-between gap-3 border-t border-border pt-6"><Button variant="outline" size="sm" disabled={lesson.number === 1} onClick={() => onSelectLesson(lesson.number - 1)}><ArrowLeft className="size-4" /> {lesson.number === 1 ? "Anterior" : `Lição ${String(lesson.number - 1).padStart(2, "0")}`}</Button><Button variant="outline" size="sm" onClick={() => onSelectLesson(lesson.number + 1)}>Lição {String(lesson.number + 1).padStart(2, "0")} <ArrowRight className="size-4" /></Button></nav>
           <footer className="text-subtle mt-16 border-t border-border pt-8 text-center text-sm"><p>Lições Bíblicas CPAD · Adultos · 4º trimestre de 2026</p><p className="mt-1">Comentarista: Osiel Gomes</p></footer>
         </main>
       </div>

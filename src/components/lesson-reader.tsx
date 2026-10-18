@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { lesson, toc } from "@/data/lesson";
 import { Button } from "@/components/ui/button";
+import { LessonCover } from "@/components/lesson-cover";
 import { ScriptureProvider, ScriptureText } from "@/components/scripture-text";
 import { cn } from "@/lib/utils";
 
@@ -271,13 +272,7 @@ export function LessonReader({ onOpenLessons, onSelectLesson }: { onOpenLessons?
 function Cover() {
   return (
     <header className="mb-4">
-      <figure className="overflow-hidden rounded-xl shadow-card">
-        <img
-          src="/hero.jpg"
-          alt="Multidão caminhando pelo deserto rumo à luz, vista por trás"
-          className="aspect-video w-full object-cover outline outline-1 -outline-offset-1 outline-ink/10"
-        />
-      </figure>
+      <LessonCover number={2} />
       <div className="mt-8 text-center">
         <p className="text-muted text-xs tracking-caps uppercase">
           {lesson.quarter} · {lesson.date}

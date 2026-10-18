@@ -1,4 +1,336 @@
 {
+  "1": [
+    {
+      "id": "sec-1",
+      "title": "Texto áureo",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "“Eis aqui esta terra, eu a dei diante de vós; entrai e possuí a terra que o Senhor jurou a vossos pais, Abraão, Isaque e Jacó, que a daria a eles e à sua semente depois deles.” (Dt 1.8)."
+        }
+      ]
+    },
+    {
+      "id": "sec-2",
+      "title": "Verdade prática",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A fidelidade a Deus e à sua Palavra dirige o crente a viver pela fé e alcançar as suas promessas."
+        }
+      ]
+    },
+    {
+      "id": "sec-3",
+      "title": "Leitura diária",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Segunda — Js 1.8; 2Tm 3.16 A obediência à Palavra conduz à vida santa e à direção de Deus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Terça — Dt 11.26-28 A desobediência à Palavra conduz à perda espiritual"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quarta — 2Tm 2.2 A responsabilidade de transmitir fielmente a Palavra à próxima geração"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quinta — Dt 1.6-8; Fp 3.20 Como povo de Deus, somos chamados a avançar pela fé rumo à promessa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sexta — Dt 6.5; 12.1 Um relacionamento com Deus marcado por amor e obediência"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sábado — Mt 4.4,7,10 Jesus confirma a autoridade e a inspiração de Deuteronômio"
+        },
+        {
+          "type": "paragraph",
+          "text": "HINOS SUGERIDOS: 107, 259 e 276 da Harpa Cristã."
+        }
+      ]
+    },
+    {
+      "id": "sec-4",
+      "title": "Leitura bíblica em classe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Deuteronômio 1.1-8."
+        },
+        {
+          "type": "paragraph",
+          "text": "1 — Estas são as palavras que Moisés falou a todo o Israel, dalém do Jordão, no deserto, na planície defronte do mar de Sufe, entre Parã, e Tofel, e Labã, e Hazerote, e Di-Zaabe."
+        },
+        {
+          "type": "paragraph",
+          "text": "2 — Onze jornadas há desde Horebe, caminho da montanha de Seir, até Cades-Barneia."
+        },
+        {
+          "type": "paragraph",
+          "text": "3 — E sucedeu que, no ano quadragésimo, no mês undécimo, no primeiro dia do mês, Moisés falou aos filhos de Israel, conforme tudo o que o Senhor lhe mandara acerca deles,"
+        },
+        {
+          "type": "paragraph",
+          "text": "4 — depois que feriu a Seom, rei dos amorreus, que habitava em Hesbom, e a Ogue, rei de Basã, que habitava em Astarote, em Edrei."
+        },
+        {
+          "type": "paragraph",
+          "text": "5 — Dalém do Jordão, na terra de Moabe, começou Moisés a declarar esta lei, dizendo:"
+        },
+        {
+          "type": "paragraph",
+          "text": "6 — O Senhor, nosso Deus, nos falou em Horebe, dizendo: Tempo bastante haveis estado neste monte."
+        },
+        {
+          "type": "paragraph",
+          "text": "7 — Voltai-vos e parti; ide à montanha dos amorreus, e a todos os seus vizinhos, e à planície, e à montanha, e ao vale, e ao Sul, e à ribeira do mar, e à terra dos cananeus, e ao Líbano, até ao grande rio, o rio Eufrates."
+        },
+        {
+          "type": "paragraph",
+          "text": "8 — Eis aqui esta terra, eu a dei diante de vós; entrai e possuí a terra que o Senhor jurou a vossos pais, Abraão, Isaque e Jacó, que a daria a eles e à sua semente depois deles."
+        }
+      ]
+    },
+    {
+      "id": "sec-5",
+      "title": "Plano de aula",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1- INTRODUÇÃO"
+        },
+        {
+          "type": "paragraph",
+          "text": "Neste trimestre, estudaremos o livro de Deuteronômio. Esse livro reafirma a aliança de Deus com Israel e destaca a importância da fidelidade à sua Palavra. Na primeira lição, veremos “Deuteronômio: O Livro da Aliança”, compreendendo o seu propósito, contexto histórico e relevância doutrinária para a vida cristã. O comentarista deste trimestre é o Pr. Osiel Gomes, líder da AD em Tirirical (MA), mestre em teologia, conferencista e autor de várias obras, cuja abordagem une profundidade teológica, aplicação prática e fidelidade às Escrituras."
+        },
+        {
+          "type": "heading",
+          "text": "2- APRESENTAÇÃO DA LIÇÃO"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) Objetivos da Lição: I) Explicar a autoria, o propósito e o valor de Deuteronômio; II) Apresentar o contexto histórico e espiritual de Deuteronômio; III) Mostrar os ensinos doutrinários e práticos de Deuteronômio."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Motivação: O livro de Deuteronômio é um chamado à fidelidade e à renovação espiritual. As suas páginas revelam princípios eternos para uma vida de fé, obediência e compromisso com Deus. Por isso, esta lição é um desafio a ouvirmos, guardarmos e vivermos a Palavra do Senhor diariamente."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Sugestão de Método: Para o desenvolvimento do segundo tópico, utilize um método expositivo-visual, reproduzindo no quadro ou em slide a divisão natural de Deuteronômio conforme a Bíblia de Estudo Pentecostal Edição Global. Apresente o livro em três grandes discursos de Moisés: retrospectiva histórica (caps. 1 — 4.43), renovação da Lei (caps. 4.44 — 26.19) e bênçãos, advertências e despedida final (caps. 27 — 30), além dos atos finais de Moisés e a sua morte (31 — 34). Em seguida, destaque no mapa bíblico a trajetória de Israel até as campinas de Moabe e relacione geografia e espiritualidade. Esse recurso ajudará a classe a compreender o contexto histórico, o avanço da narrativa e o propósito exortativo de Moisés à nova geração."
+        },
+        {
+          "type": "heading",
+          "text": "3- CONCLUSÃO DA LIÇÃO"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aplicação: Deuteronômio ensina-nos que a fidelidade à Palavra de Deus é indispensável para uma vida espiritual consistente. Assim como Israel precisou confiar, obedecer e avançar rumo à promessa, também somos chamados a viver pela fé, rejeitar a desobediência e permanecer firmes na verdade bíblica."
+        },
+        {
+          "type": "heading",
+          "text": "4- SUBSÍDIO AO PROFESSOR"
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Auxílios Especiais: Ao fim dos tópicos, você encontrará auxílios que darão suporte à preparação de sua aula: 1) O texto “Visão Panorâmica”, localizado após o segundo tópico, contribui para a compreensão do contexto imediato do livro de Deuteronômio e da sua estrutura temática; 2) O texto “O Propósito do Livro”, localizado ao fim do terceiro tópico, aprofunda a compreensão do propósito central do livro de Deuteronômio."
+        }
+      ]
+    },
+    {
+      "id": "sec-6",
+      "title": "Introdução",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nesta lição, estudaremos o livro de Deuteronômio, integrante do Pentateuco, e destacaremos os princípios da aliança que Deus estabeleceu com Israel. Nele, Moisés apresenta o seu discurso final, prepara o povo para a entrada na Terra Prometida e reafirma a centralidade da Lei e a necessidade de fidelidade a Deus (Dt 28.1,2). O livro também nos conduz à compreensão de três discursos do Legislador de Israel (1- 4; 5 – 27; 28 – 34 ), dos seus atos finais e da sua conexão com o Novo Testamento, além de revelar fundamentos permanentes para a vida cristã."
+        },
+        {
+          "type": "paragraph",
+          "text": "Palavra-Chave: ALIANÇA"
+        }
+      ]
+    },
+    {
+      "id": "sec-7",
+      "title": "I- DEUTERONÔMIO: AUTORIA E PROPÓSITO DO LIVRO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1- Autoria. A tradição judaica, a evidência interna e os estudiosos conservadores reconhecem Moisés como autor de Deuteronômio, pois foi o mediador da aliança entre Deus e Israel (Dt 1.1; 31.9,24). O livro registra os discursos, instruções e exortações dirigidos ao povo nas campinas de Moabe. Apenas os acontecimentos posteriores à sua morte, descritos no capítulo final, podem ter sido registrados por Josué ou por outro escriba sob inspiração divina. Em Deuteronômio 1.3, observa-se que o conteúdo antecede a sua morte e a conquista da Terra Prometida."
+        },
+        {
+          "type": "paragraph",
+          "text": "2- Definição. O título deriva da expressão grega deuteronomion, traduzida na Septuaginta como “repetição da Lei” (Dt 17.18). O livro reflete a releitura de Moisés sobre a Lei às vésperas da entrada em Canaã. Na tradição judaica, é chamado hadevārîm (“estas palavras”), destacando-se o seu caráter discursivo. Com linguagem acessível, Moisés exorta Israel à fidelidade exclusiva ao Senhor (Dt 5.7-10) e adverte o povo contra a idolatria e a corrupção moral. Estruturado em três discursos, Deuteronômio reafirma que a obediência à Palavra conduz à bênção e à vida santa (Js 1.8; Cf. 2Tm 3.16)."
+        },
+        {
+          "type": "paragraph",
+          "text": "3- Valor e propósito de Deuteronômio. O valor de Deuteronômio é permanente para a edificação espiritual do povo de Deus, evidenciado no seu uso na reforma de Esdras e Neemias. O livro destaca o amor de Deus e a devoção que Ele requer (Dt 6.5) e instrui o povo a viver com justiça, equidade e integridade, pois a obediência conduz à vida e à bênção, enquanto a desobediência leva à maldição (Dt 11.26-28). O seu propósito é reafirmar a aliança e preparar o povo para a promessa. Hoje, somos chamados a renovar nosso compromisso com Deus, a viver em fidelidade e a experimentar a vitória em Cristo (1Co 15.57)."
+        }
+      ]
+    },
+    {
+      "id": "sec-8",
+      "title": "Sinopse I",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Deuteronômio reafirma a Lei e a aliança de Deus com Israel."
+        }
+      ]
+    },
+    {
+      "id": "sec-9",
+      "title": "Ampliando o conhecimento",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Podemos compreender o livro de Deuteronômio a partir de três verbos centrais que estabelecem os três grandes discursos do livro: recordar (caps. 1 — 4.43), obedecer (caps. 4.44 — 26.19) e vigiar (caps. 27 — 30). Recordar, porque o livro preserva a memória da Lei. Obedecer, porque exorta o povo a viver segundo os mandamentos ao entrar na Terra Prometida. Vigiar, porque apresenta bênçãos para a obediência e maldições para a desobediência. Esse livro nos chama a viver uma vida consciente do Evangelho como testemunho vivo na sociedade (Para ampliar mais o seu conhecimento, consulte a Bíblia de Estudo Pentecostal — Edição Global, editada pela CPAD, pp.219-302)."
+        }
+      ]
+    },
+    {
+      "id": "sec-10",
+      "title": "II- CONTEXTO HISTÓRICO DE DEUTERONÔMIO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1- Panorama espiritual. O capítulo 1 de Deuteronômio começa com um cenário espiritual. A expressão “Estas são as palavras que Moisés falou” (v.1), do hebraico Êlleh hadvarim, introduz um discurso com autoridade divina. Não são palavras humanas, mas revelação de Deus, que exige obediência. Dirigidas à nova geração, nas campinas de Moabe, visavam renovar a aliança. Como não presenciou o Êxodo, o povo precisava ser instruído antes de entrar na Terra Prometida. Isso evidencia a importância de transmitir a Palavra entre gerações (2Tm 2.2)."
+        },
+        {
+          "type": "paragraph",
+          "text": "2- Um panorama geográfico. Após apresentar o discurso de Moisés, Deuteronômio descreve regiões percorridas por Israel: o deserto (terra desabitada), a planície de Arabá e locais como Parã, Labã, Hazerote e Di-Zaabe, indicando a rota até Canaã. Em Deuteronômio 1.2, destaca-se que o trajeto de Horebe a Cades-Barneia poderia ser feito em poucos dias, mas levou quarenta anos devido à desobediência do povo. A antiga geração sofreu as consequências da sua incredulidade e falta de temor; logo, aprendemos que a jornada rumo à Canaã Celestial exige santidade, fé e obediência para que alcancemos as promessas de Deus (Hb 4.1-11)."
+        },
+        {
+          "type": "paragraph",
+          "text": "3- O discurso exortativo de Moisés. Consciente de que não entraria na Terra Prometida (Dt 1.37; 3.27), Moisés profere o seu discurso final e prepara o povo para a transição de liderança a Josué. Esse momento de despedida e instrução é recorrente entre líderes bíblicos, como, por exemplo, Jacó, Josué, Samuel e Davi, e também é observado em Jesus (Jo 14-16). Moisés fala em tom de vitória e recorda feitos do Senhor, como a derrota de Seom e Ogue. As palavras dele não eram meramente humanas, mas revelação divina. A “Lei” refere-se à Torá, conjunto de ensinos que orientavam a vida moral e espiritual de Israel, base da sua identidade como povo de Deus."
+        },
+        {
+          "type": "paragraph",
+          "text": "4- Desafiando a nova geração a ser decisiva. A antiga geração de Israel falhou no seu compromisso com o Senhor Deus e não entrou na Terra Prometida. O primeiro discurso de Moisés revisa esse passado e orienta a nova geração à fidelidade. Após quarenta anos, surge um povo chamado a obedecer (Dt 1.6-8). O centro está em Deuteronômio 1.8: Deus já deu a terra; cabia a Israel possuí-la pela fé. É assim também hoje, pois somos chamados a viver pela fé, rumo à cidade celestial (Fp 3.20)."
+        }
+      ]
+    },
+    {
+      "id": "sec-11",
+      "title": "Sinopse II",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Moisés relembra a jornada de Israel e exorta à obediência."
+        }
+      ]
+    },
+    {
+      "id": "sec-12",
+      "title": "Auxílio bibliológico",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "“VISÃO PANORÂMICA. Moisés rememorou intensamente o concerto de Deus com Israel em três sermões ou discursos inspirados: 1) O primeiro discurso de Moisés recordou a história de Israel — enfatizando a dúvida persistente do povo e a sua rebelião desde que eles deixaram o monte Sinai — e convocou a nova geração para que evitasse os erros do passado e reverentemente temesse e obedecesse a Deus (1.1 — 4.43). 2) O segundo discurso de Moisés relembrou e aplicou muitas Leis do concerto referentes a questões como a adoração, o sábado, os pobres, as festas anuais, os direitos de herança e propriedade, a imoralidade sexual e a preservação da justiça (4.44 — 26.19). 3) O terceiro discurso de Moisés foi uma profecia a respeito das bênçãos e maldições que o povo receberia como resultado de sua obediência ou desobediência (27.1 — 30.20). Os capítulos restantes incluem o ato de Moisés de comissionar Josué como seu sucessor e um testemunho sobre a morte de Moisés (31.1 — 34.12).” (Bíblia de Estudo Pentecostal — Edição Global. 1a Edição. Rio de Janeiro: CPAD, 2022, p.300)."
+        }
+      ]
+    },
+    {
+      "id": "sec-13",
+      "title": "III- O LADO DOUTRINÁRIO E PRÁTICO DE DEUTERONÔMIO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1- Relevância doutrinária. A relevância doutrinária de Deuteronômio fundamenta-se na revelação do caráter de Deus: justo, santo, fiel, misericordioso, zeloso e verdadeiro (Dt 7.9; 10.17). O livro apresenta o relacionamento entre o Senhor e Israel — que deve ser marcado por temor, obediência e reverência — e exige submissão contínua à vontade e à Lei de Deus (Dt 6.5; 12.1). Destaca-se também o seu aspecto messiânico, ao apontar para Jesus como o Profeta semelhante a Moisés (Dt 18.15; cf. At 3.23); logo, o povo era chamado a viver segundo a Lei para cumprir a sua missão e, assim, experimentar o favor divino."
+        },
+        {
+          "type": "paragraph",
+          "text": "2- Relevância ética e prática. Em Deuteronômio, Moisés destaca temas essenciais à vida do povo, especialmente a educação espiritual dos filhos (Dt 6.6,7). No cotidiano, os pais deveriam ensinar a Palavra e, assim, formar gerações firmes na fé, como ocorreu com Timóteo (2Tm 1.5). O livro também enfatiza o amor e a fidelidade a Deus, expressos na obediência aos seus mandamentos (Dt 6.5). Além disso, orienta sobre liderança justa e submissão à Lei, visando o bem comum. O seu tom exortativo chama o povo a rejeitar a idolatria e viver segundo a vontade divina. Assim, o livro evidencia princípios de justiça, compaixão e responsabilidade que servem de referência para a ética cristã."
+        }
+      ]
+    },
+    {
+      "id": "sec-14",
+      "title": "Sinopse III",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Deuteronômio une doutrina, ética e fidelidade à Palavra."
+        }
+      ]
+    },
+    {
+      "id": "sec-15",
+      "title": "Auxílio bibliológico",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "O PROPÓSITO DO LIVRO."
+        },
+        {
+          "type": "paragraph",
+          "text": "“O propósito original de Moisés ao se dirigir à nova geração de Israel antes de passar a liderança a Josué foi desafiar, encorajar e instruir as pessoas sobre: 1) os atos poderosos e as promessas de Deus, 2) as suas próprias obrigações de fé e obediência previstas no concerto, e 3) a sua necessidade de reverenciar a Deus e viver para realizar os seus propósitos. Moisés queria relembrar o povo da séria responsabilidade e do privilégio de amar e honrar a Deus de todo o coração, de toda a alma e força (6.4).” (Bíblia de Estudo Pentecostal — Edição Global. 1a Edição. Rio de Janeiro: CPAD, 2022, p.300)."
+        }
+      ]
+    },
+    {
+      "id": "sec-16",
+      "title": "Conclusão",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A leitura do livro de Deuteronômio possui grande valor para nós, os salvos em Cristo Jesus, pois nos conduz à compreensão da aliança que Deus firmou com Israel. Ao mesmo tempo, ressalta a importância de obedecer aos preceitos divinos e de renovar continuamente nosso compromisso de fé. Somos, portanto, chamados a viver uma vida cristã autêntica, que é marcada pela fé e responsabilidade, e a responder ao Senhor com amor, obediência e disposição constante para ouvir a sua Palavra."
+        }
+      ]
+    },
+    {
+      "id": "sec-17",
+      "title": "Revisando o conteúdo",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1- O que reúne o livro de Deuteronômio?"
+        },
+        {
+          "type": "paragraph",
+          "text": "O livro de Deuteronômio reúne discursos e registros históricos de Moisés."
+        },
+        {
+          "type": "paragraph",
+          "text": "2- Qual é o valor de Deuteronômio para o povo de Deus?"
+        },
+        {
+          "type": "paragraph",
+          "text": "O valor de Deuteronômio é permanente para a edificação espiritual do povo de Deus, evidenciado o seu uso na reforma de Esdras e Neemias."
+        },
+        {
+          "type": "paragraph",
+          "text": "3- Qual é a mensagem central de Deuteronômio 1.8?"
+        },
+        {
+          "type": "paragraph",
+          "text": "O centro está em Deuteronômio 1.8: Deus já deu a terra; cabia a Israel possuí-la pela fé."
+        },
+        {
+          "type": "paragraph",
+          "text": "4- A relevância doutrinária de Deuteronômio fundamenta-se em quê?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A relevância doutrinária de Deuteronômio fundamenta-se na revelação do caráter de Deus: justo, santo, fiel, misericordioso, zeloso e verdadeiro (Dt 7.9; 10.17)."
+        },
+        {
+          "type": "paragraph",
+          "text": "5- O que demonstram as referências de Cristo e dos apóstolos sobre o livro de Deuteronômio?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Essas referências demonstram que tanto Cristo quanto os seus apóstolos reconheciam Deuteronômio como Escritura inspirada, na qual se encontram fundamentos que apontam para o cumprimento das promessas messiânicas em Jesus Cristo."
+        }
+      ]
+    }
+  ],
   "3": [
     {
       "id": "sec-1",
