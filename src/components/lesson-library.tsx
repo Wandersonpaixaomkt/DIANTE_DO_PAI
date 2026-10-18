@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { ArrowLeft, ArrowRight, BookOpen, ExternalLink, FileText, X } from "lucide-react";
 import { LessonReader } from "@/components/lesson-reader";
+import { SuppliedLessonReader } from "@/components/supplied-lesson-reader";
 import { Button } from "@/components/ui/button";
 import { lessonCatalog, type CatalogLesson } from "@/data/lesson-catalog";
 
@@ -52,6 +53,8 @@ export function LessonLibrary() {
     <>
       {number === 2 ? (
         <LessonReader onOpenLessons={() => setMenuOpen(true)} onSelectLesson={selectLesson} />
+      ) : number >= 3 && number <= 6 ? (
+        <SuppliedLessonReader key={number} lesson={lesson} onOpenLessons={() => setMenuOpen(true)} onSelectLesson={selectLesson} />
       ) : (
         <LessonOverview lesson={lesson} onOpenLessons={() => setMenuOpen(true)} onSelectLesson={selectLesson} />
       )}
