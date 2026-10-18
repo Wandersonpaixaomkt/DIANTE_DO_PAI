@@ -1,0 +1,9 @@
+{
+  "name": "Lições Bíblicas CPAD — Lição 2",
+  "short_name": "Lições Bíblicas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3eee4",
+  "theme_color": "#f3eee4",
+  "icons": [{ "src": "/__grok/icon-180.png", "sizes": "180x180", "type": "image/png" }]
+}
