@@ -125,7 +125,7 @@ function TocNav({
   );
 }
 
-export function LessonReader() {
+export function LessonReader({ onOpenLessons, onSelectLesson }: { onOpenLessons?: () => void; onSelectLesson?: (number: number) => void } = {}) {
   const { size, apply } = useReaderSize();
   const progress = useScrollProgress();
   const ids = useMemo(() => toc.map((t) => t.id), []);
@@ -160,6 +160,11 @@ export function LessonReader() {
             </p>
           </div>
           <div className="flex items-center gap-1">
+            {onOpenLessons && (
+              <Button variant="outline" size="sm" className="mr-1 gap-2" onClick={onOpenLessons} aria-label="Escolher lição">
+                <BookOpen className="size-4" /> <span>Lições</span>
+              </Button>
+            )}
             <Button
               variant="ghost"
               size="icon"
@@ -244,6 +249,12 @@ export function LessonReader() {
           <Conclusion />
           <Review />
           <Subsidy />
+          {onSelectLesson && (
+            <nav aria-label="Navegar entre lições" className="no-print mt-12 flex flex-wrap justify-between gap-3 border-t border-border pt-6">
+              <Button variant="outline" size="sm" onClick={() => onSelectLesson(1)}>← Lição 01</Button>
+              <Button variant="outline" size="sm" onClick={() => onSelectLesson(3)}>Lição 03 →</Button>
+            </nav>
+          )}
           <footer className="text-subtle mt-16 border-t border-border pt-8 text-center text-sm">
             <p>
               {lesson.series} · {lesson.audience} · {lesson.quarter}

@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-import { LessonReader } from "@/components/lesson-reader";
+import { LessonLibrary } from "@/components/lesson-library";
 import "@/styles.css";
 
-createRoot(document.getElementById("root")!).render(<LessonReader />);
+createRoot(document.getElementById("root")!).render(<LessonLibrary />);
